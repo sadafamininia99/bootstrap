@@ -1,0 +1,259 @@
+body {
+    font-family: 'Muli'
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    /* color: #fb4275; */
+}
+
+:focus {
+    outline: 0;
+}
+
+a {
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.web-heading p {
+    max-width: 800px;
+    margin: 30px auto;
+    color: #818181;
+    font-size: 1.15rem;
+    line-height: 1.75;
+}
+
+.web-shadow {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .05);
+}
+
+.web-heading h1 {
+    font-size: 3.5rem;
+}
+
+.web-heading h2 {
+    font-size: 2.5rem;
+    /* color: #fb4275; */
+}
+
+.web-heading h3 {
+    font-size: 1.5rem;
+    color: #fb4275;
+}
+
+.web-heading span {
+    color: #fb4275;
+}
+
+.web-header-section {
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.web-header-section ul li {
+    padding: 0 5px;
+}
+
+.web-header-section ul li a {
+    color: #3f3f3f;
+}
+
+.web-header-section ul li.active a,
+.web-header-section ul li a:hover {
+    color: #fb4275
+}
+
+.web-slider-section {
+    width: 100%;
+    display: inline-block;
+    padding: 150px 0;
+    background: url(images/img-slider-section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.web-slider-section .carousel-indicators {
+    bottom: -35px;
+}
+
+.web-slider-section .carousel-indicators li {
+    height: 10px;
+    background: #818181;
+    border-radius: 20px;
+    opacity: 1;
+    border: 0;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.web-slider-section .carousel-indicators li:hover {
+    background: #fb4275;
+}
+
+.web-slider-section .carousel-indicators li.active {
+    width: 45px;
+    background: #fb4275;
+}
+
+.web-feature-section {
+    padding: 100px 0;
+    background: url(images/img-feature-section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.web-feature-section .web-feature-item {
+    margin: 0 0 30px;
+    padding: 60px 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.web-about-section {
+    padding: 100px 0;
+    position: relative;
+    background: url(images/img-about-section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.web-about-section::before {
+    content: '';
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 45;
+    background-size: contain;
+    right: -120px;
+    background: url(images/img-about-1.png)no-repeat;
+}
+
+.web-about-section .web-about-tab .nav {
+    border: 0;
+    margin: 0 0 30px;
+}
+
+.web-about-section .web-about-tab .nav li a {
+    padding: 20px 30px;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 1;
+    border: 0;
+    color: #000;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.web-about-section .web-about-tab .nav li a.active {
+    border-color: #fb4275;
+    color: #fb4275;
+}
+
+.web-about-section .web-about-tab p {
+    margin: 0 0 25px;
+    color: #818181;
+}
+
+.web-steps-section {
+    padding: 100px 0;
+    background: url(images/img-step-section.png) no-repeat;
+    background-size: contain;
+}
+
+.web-steps-section .web-steps-line {
+    background: url(images/img-step-line.png)no-repeat;
+    background-position: 60% 30%;
+}
+
+.web-steps-section .col-lg-3:nth-child(even) {
+    margin: 225px 0 0;
+}
+
+.web-steps-section .web-steps-item {
+    margin: 0 0 30px;
+    padding: 60px 20px;
+}
+
+.web-service-section {
+    padding: 0 0 100px;
+    background: url(images/img-service-section.png) no-repeat;
+    background-size: contain;
+}
+
+.web-service-section .col-lg-6:nth-child(even) {
+    margin: 30px 0 0;
+}
+
+.web-service-section .web-service-item {
+    padding: 45px 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.web-service-section .web-service-item h4 {
+    margin: 30px 0 20px;
+    font-size: 1.15rem;
+}
+
+.web-service-section .web-service-item a {
+    display: inline-block;
+    position: relative;
+    font-family: 'Rubik';
+    color: #3f3f3f;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.web-service-section .web-service-item a:before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background: #3f3f3f;
+}
+
+.web-service-section .web-service-item a:hover {
+    color: #fb4275
+}
+
+.web-counter-section {
+    padding: 100px 0;
+    background: #fb4275;
+    color: #fff;
+}
+
+.web-counter-section .web-counter-item span {
+    display: block;
+    font-family: 'Rubik';
+}
+
+.web-counter-section .web-counter-item .web-counter-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.web-counter-section .web-counter-item .web-counter-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
